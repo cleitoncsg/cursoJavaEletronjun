@@ -1,0 +1,18 @@
+package engenharias;
+
+import java.util.Scanner;
+
+public class Fatorial {
+
+	 static int numero;
+	 static Scanner leia = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Digite um numero, por favor\n");
+		numero = Integer.parseInt(leia.nextLine());
+		
+
+	}
+
+}

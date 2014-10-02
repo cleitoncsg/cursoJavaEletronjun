@@ -1,0 +1,34 @@
+package fga.eletronjun.controle;
+
+import java.util.Scanner;
+
+import fga.eletronjun.modelo.Pessoa;
+
+public class PessoaControle {
+	
+	Pessoa pessoa = new Pessoa();
+	static Scanner leia = new Scanner(System.in);
+	
+	
+	
+	public static void main(String[] args){
+		
+		int opcao = 0;
+		
+		for(;;){
+			System.out.println("Digite a opção");
+			opcao = Integer.parseInt(leia.nextLine());
+			menu();
+			
+		}
+		
+	}
+
+
+
+	private static void menu() {
+		System.out.println("1) Cadastrar");
+		System.out.println("2) Listar");
+	}
+
+}

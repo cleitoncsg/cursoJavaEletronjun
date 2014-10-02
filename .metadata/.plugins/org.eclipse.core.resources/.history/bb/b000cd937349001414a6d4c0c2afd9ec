@@ -1,0 +1,43 @@
+package arrayList;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Pessoa {
+	
+	static Scanner leia = new Scanner(System.in);
+	static ArrayList<Pessoa> cadastro = new ArrayList<Pessoa>();
+	
+	public static void main(String[] argumento){
+		int opcao = 0;
+		
+		switch (opcao) {
+			case 1:
+				cadastrar();
+				break;
+			case 2:
+				listar();
+				break;
+	
+			default:
+				break;
+		}
+		
+	}
+
+	private static void listar() {
+		String nome;
+		
+		System.out.println("Digite o nome da pessoa para ser cadastrada\n");
+		nome = leia.nextLine();
+		
+		cadastro
+		
+	}
+
+	private static void cadastrar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

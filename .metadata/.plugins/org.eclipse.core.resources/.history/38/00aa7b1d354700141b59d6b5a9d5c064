@@ -1,0 +1,5 @@
+package automotiva;
+
+public abstract class Automovel {
+
+}

@@ -1,0 +1,9 @@
+package polimorfismo2;
+
+public class ExecutaDepartamento {
+	
+	public static void main(String[] argumento){
+		
+	}
+
+}

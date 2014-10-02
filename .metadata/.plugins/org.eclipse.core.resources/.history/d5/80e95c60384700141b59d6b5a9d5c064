@@ -1,0 +1,6 @@
+package polimorfismo;
+
+public abstract class Empresa {
+	
+	abstract double calculaSalarioFinal(int quantidadeFuncionarios, double salario);
+}

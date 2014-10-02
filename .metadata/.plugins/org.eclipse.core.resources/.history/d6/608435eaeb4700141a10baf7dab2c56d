@@ -1,0 +1,12 @@
+package polimorfismo1;
+
+public class Aluno extends Pessoa{
+	
+	public static void main(String[] args){
+		System.out.println(calculaSalario(1000));
+	}
+	
+	static double calculaSalario(double salario){
+		return salario*1.50;
+	}
+}

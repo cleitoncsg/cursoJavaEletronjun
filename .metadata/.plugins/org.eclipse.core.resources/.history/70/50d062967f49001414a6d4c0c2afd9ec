@@ -1,0 +1,7 @@
+package fga.eletronjun.controle;
+
+public class PessoaControle {
+	
+	Pessoa pessoa = new Pessoa();
+
+}

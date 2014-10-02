@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Pessoa.java&apos; to &apos;aula5/src/fga.eletronjun.modelo&apos;&#x0A;- Original project: &apos;aula5&apos;&#x0A;- Destination element: &apos;aula5/src/fga.eletronjun.modelo&apos;&#x0A;- Original element: &apos;arrayList.Pessoa.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;fga.eletronjun.modelo" element1="/src&lt;arrayList{Pessoa.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1412176753624" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+package polimorfismo;
+
+public class ExecutaDepartamento {
+	
+	public static void main(String[] args) {
+		DepartamentoTI departamentoTI = new DepartamentoTI();
+		departamentoTI.calculaSalarioFinal(10, 100);
+	}
+
+}

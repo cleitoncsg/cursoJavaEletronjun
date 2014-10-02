@@ -1,0 +1,29 @@
+package polimorfismo;
+
+import java.util.Scanner;
+
+public class ExecutaDepartamento {
+	
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		DepartamentoTI departamentoTI = new DepartamentoTI();
+		DepartamentoRH departamentoRH = new DepartamentoRH();
+		int opcao = 0;
+		
+		switch (opcao) {
+		case 1;
+			System.out.println(departamentoTI.calculaSalarioFinal(5, 4000));
+			break;
+
+		default:
+			break;
+		}
+		System.out.println(departamentoTI.calculaSalarioFinal(10, 100));
+	}
+	
+	void  menu(){
+		System.out.println("1)Calcular Folha pagamento Departamento TI");
+		System.out.println("2)Calcular Folha pagamento Departamento RH");
+	}
+
+}

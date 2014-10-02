@@ -1,0 +1,7 @@
+package polimorfismo;
+
+public class DepartamentoTI extends Empresa {
+
+	
+	
+}

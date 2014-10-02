@@ -1,0 +1,6 @@
+package automotiva;
+
+public interface class Automovel {
+	
+	double calculaVelocidadeMedia(double tempo, double distancia);
+}

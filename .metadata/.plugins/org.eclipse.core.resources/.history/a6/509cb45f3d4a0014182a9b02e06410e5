@@ -1,0 +1,21 @@
+package fga.eletronjun.modelo;
+
+public class Conta {
+	private String nomeBanco;
+	private int numero;
+	
+	public String getNomeBanco() {
+		return nomeBanco;
+	}
+	public void setNomeBanco(String nomeBanco) {
+		this.nomeBanco = nomeBanco;
+	}
+	public int getNumero() {
+		return numero;
+	}
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	
+	
+}

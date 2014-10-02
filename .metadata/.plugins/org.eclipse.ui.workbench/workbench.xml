@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -10,7 +10,7 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
@@ -29,27 +29,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Empresa.java" partName="Empresa.java" path="/home/cleiton/github/cursoJavaEletronjun/aula4/src/polimorfismo/Empresa.java" title="Empresa.java" tooltip="aula4/src/polimorfismo/Empresa.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aula4/src/polimorfismo/Empresa.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="267" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Conta.java" partName="Conta.java" path="/home/cleiton/github/cursoJavaEletronjun/aula_6_final/src/fga/eletronjun/modelo/Conta.java" title="Conta.java" tooltip="aula_6_final/src/fga/eletronjun/modelo/Conta.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aula_6_final/src/fga/eletronjun/modelo/Conta.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="139" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExecutaDepartamento.java" partName="ExecutaDepartamento.java" path="/home/cleiton/github/cursoJavaEletronjun/aula4/src/polimorfismo/ExecutaDepartamento.java" title="ExecutaDepartamento.java" tooltip="aula4/src/polimorfismo/ExecutaDepartamento.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aula4/src/polimorfismo/ExecutaDepartamento.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DepartamentoTI.java" partName="DepartamentoTI.java" path="/home/cleiton/github/cursoJavaEletronjun/aula4/src/polimorfismo/DepartamentoTI.java" title="DepartamentoTI.java" tooltip="aula4/src/polimorfismo/DepartamentoTI.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aula4/src/polimorfismo/DepartamentoTI.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="295" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DepartamentoRH.java" partName="DepartamentoRH.java" path="/home/cleiton/github/cursoJavaEletronjun/aula4/src/polimorfismo/DepartamentoRH.java" title="DepartamentoRH.java" tooltip="aula4/src/polimorfismo/DepartamentoRH.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aula4/src/polimorfismo/DepartamentoRH.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="156" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContaControle.java" partName="ContaControle.java" path="/home/cleiton/github/cursoJavaEletronjun/aula_6_final/src/fga/eletronjun/controle/ContaControle.java" title="ContaControle.java" tooltip="aula_6_final/src/fga/eletronjun/controle/ContaControle.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/aula_6_final/src/fga/eletronjun/controle/ContaControle.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="235" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -59,8 +49,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (2 items)"/>
+<category IMemento.internal.id="Warnings (3 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="332" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -200,6 +189,7 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="com.mountainminds.eclemma.ui.CoverageActionSet"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -302,40 +292,12 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula4/src/polimorfismo/ExecutaDepartamento.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula4/src/polimorfismo/DepartamentoTI.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula4/src/polimorfismo/DepartamentoRH.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula4/src/polimorfismo/Empresa.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula4/src/polimorfismo/DepartamentoTI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula4/src/polimorfismo/DepartamentoRH.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula_6_final/src/fga/eletronjun/modelo/Conta.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/aula_6_final/src/fga/eletronjun/controle/ContaControle.java"/>
 </editors>
-<item historyLabel="Empresa.java" index="1">
-<position info="not_deleted" x="239" y="0"/>
-</item>
-<item historyLabel="Empresa.java" index="1">
-<position info="not_deleted" x="66" y="51"/>
-</item>
-<item historyLabel="Empresa.java" index="1">
-<position info="not_deleted" x="239" y="0"/>
-</item>
-<item historyLabel="Empresa.java" index="1">
-<position info="not_deleted" x="298" y="0"/>
-</item>
-<item historyLabel="Empresa.java" index="1">
-<position info="not_deleted" x="302" y="0"/>
-</item>
-<item historyLabel="DepartamentoTI.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DepartamentoTI.java" index="2">
-<position info="not_deleted" x="334" y="0"/>
-</item>
-<item historyLabel="DepartamentoTI.java" index="2">
-<position info="not_deleted" x="334" y="0"/>
-</item>
-<item historyLabel="Empresa.java" index="1">
-<position info="not_deleted" x="59" y="183"/>
-</item>
-<item historyLabel="DepartamentoTI.java" index="2">
-<position info="not_deleted" x="334" y="0"/>
-</item>
-<item historyLabel="Empresa.java" index="1">
-<position info="not_deleted" x="246" y="52"/>
-</item>
 <item historyLabel="DepartamentoTI.java" index="2">
 <position info="not_deleted" x="334" y="0"/>
 </item>
@@ -450,8 +412,41 @@
 <item historyLabel="Empresa.java" index="0">
 <position info="not_deleted" x="267" y="0"/>
 </item>
-<item active="true" historyLabel="ExecutaDepartamento.java" index="4">
-<position info="not_deleted" x="1585" y="0"/>
+<item historyLabel="ExecutaDepartamento.java" index="4">
+<position info="not_deleted" x="210" y="0"/>
+</item>
+<item historyLabel="Empresa.java" index="7">
+<position info="not_deleted" x="267" y="0"/>
+</item>
+<item historyLabel="DepartamentoTI.java" index="8">
+<position info="not_deleted" x="295" y="0"/>
+</item>
+<item historyLabel="DepartamentoRH.java" index="9">
+<position info="not_deleted" x="156" y="0"/>
+</item>
+<item historyLabel="Conta.java" index="10">
+<position info="not_deleted" x="139" y="0"/>
+</item>
+<item historyLabel="ContaControle.java" index="11">
+<position info="not_deleted" x="230" y="0"/>
+</item>
+<item historyLabel="Conta.java" index="10">
+<position info="not_deleted" x="139" y="0"/>
+</item>
+<item historyLabel="ContaControle.java" index="11">
+<position info="not_deleted" x="230" y="0"/>
+</item>
+<item historyLabel="ContaControle.java" index="11">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="ContaControle.java" index="11">
+<position info="not_deleted" x="201" y="30"/>
+</item>
+<item historyLabel="ContaControle.java" index="11">
+<position info="not_deleted" x="179" y="0"/>
+</item>
+<item active="true" historyLabel="ContaControle.java" index="11">
+<position info="not_deleted" x="142" y="5"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -459,12 +454,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -472,11 +461,16 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContaControle.java" tooltip="aula_6_final/src/fga/eletronjun/controle/ContaControle.java">
+<persistable path="/aula_6_final/src/fga/eletronjun/controle/ContaControle.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Conta.java" tooltip="aula_6_final/src/fga/eletronjun/modelo/Conta.java">
+<persistable path="/aula_6_final/src/fga/eletronjun/modelo/Conta.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DepartamentoRH.java" tooltip="aula4/src/polimorfismo/DepartamentoRH.java">
 <persistable path="/aula4/src/polimorfismo/DepartamentoRH.java"/>
 </file>

@@ -1,0 +1,16 @@
+package fga.eletronjun.controle;
+
+import java.util.ArrayList;
+
+import fga.eletronjun.modelo.Conta;
+
+public class ContaControle {
+	
+	ArrayList<Conta> cadastro = new ArrayList<Conta>();
+	
+	public double deposito(double valorDeposito){
+		
+		return valorDeposito;
+	}
+
+}

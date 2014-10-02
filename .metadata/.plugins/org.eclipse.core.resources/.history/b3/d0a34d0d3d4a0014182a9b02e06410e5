@@ -1,0 +1,6 @@
+package fga.eletronjun.modelo;
+
+public class Conta {
+	private String nomeBanco;
+	private int numero;
+}

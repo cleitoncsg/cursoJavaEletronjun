@@ -1,0 +1,9 @@
+package fga.eletronjun.util;
+
+public class RegulacaoUtil {
+	
+	public double taxaImpostoDeRenda(double valorEmDinheiroAnualConta){
+		return valorEmDinheiroAnualConta*0.25;
+	}
+
+}

@@ -1,0 +1,42 @@
+package fga.eletronjun.controle;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import fga.eletronjun.modelo.Conta;
+import fga.eletronjun.util.RegulacaoUtil;
+
+public class ContaControle extends RegulacaoUtil{
+	
+	ArrayList<Conta> cadastroDeposito = new ArrayList<Conta>();
+	ArrayList<Conta> cadastroRetirada = new ArrayList<Conta>();
+	Conta conta = new Conta();
+	
+	public void deposito(double valorDeposito){
+		conta.setValorDeposito(valorDeposito);
+		cadastroDeposito.add(conta);
+	}
+	
+	public void saque(double valorRetirada){
+		conta.setValorRetirada(valorRetirada);
+		cadastroRetirada.add(conta);
+	}
+	
+	public double calculoSaldoConta(){
+		double  somaDeposito = 0;
+		double somaRetirada = 0;
+		
+		Iterator<Conta> i = cadastroDeposito.iterator();
+		Iterator<Conta> j = cadastroRetirada.iterator();
+		
+		while(i.hasNext()){
+			somaDeposito += i.next().getValorDeposito();
+		}
+		
+		while(j.hasNext()){
+			somaRetirada += j.next().getValorRetirada();
+		}
+		
+		return (somaDeposito - somaRetirada);
+	}
+}

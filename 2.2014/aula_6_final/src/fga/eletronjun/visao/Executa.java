@@ -1,0 +1,54 @@
+package fga.eletronjun.visao;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import fga.eletronjun.controle.ContaControle;
+
+public class Executa {
+	
+
+	static Scanner leia = new Scanner(System.in);
+	static ContaControle contaControle = new ContaControle();
+	
+	public static void main(String[] args){
+		
+		int opcao = 0;
+		
+		for(;;){
+			System.out.println("Digite a opção");
+			menu();
+			opcao = Integer.parseInt(leia.nextLine());
+			
+			switch (opcao) {
+				case 1:
+					contaControle.deposito(10.0);
+					break;
+				case 2:
+					contaControle.saque(5.0);
+					break;
+				case 3:
+					System.out.println(contaControle.calculoSaldoConta());
+					break;
+				case 4:
+					System.out.println(contaControle.taxaImpostoOperacaoFinanceira(contaControle.calculoSaldoConta()));
+					break;
+	
+				default:
+					System.out.println("Opção inválida\n");
+					break;
+			}
+				
+		}
+		
+	}
+	
+	private static void menu() {
+		System.out.println("1) Efetuar Depósito");
+		System.out.println("2) Sacar Dinheiro");
+		System.out.println("3) Verificar Saldo da Conta");
+		System.out.println("4) Calcular taxa de IOF");
+	}
+
+
+}
